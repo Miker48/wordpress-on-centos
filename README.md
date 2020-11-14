@@ -14,7 +14,7 @@ This wiki includes the steps to setup wordpress on centos 8 for my family blog: 
 1. Install mariadb, apache, php rpms
  >  dnf install mariadb-server httpd php-json php-mysqlnd php-fpm 
 
-2. Enable / Start mariadb and apahce web server
+2. Enable / Start mariadb and apache web server
  >  systemctl enable --now mariadb httpd
 
 3. Open firewall for http (port 80) / https (port 443) traffic
